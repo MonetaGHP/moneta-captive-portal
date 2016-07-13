@@ -27,7 +27,7 @@
     background-image: url("images/yellow.png");
 }
 .cyan {
-    background-image: url(h"images/cyan.png");
+    background-image: url("images/cyan.png");
 }
 .magenta {
     background-image: url("images/magenta.png");
@@ -36,7 +36,7 @@
     background-image: url("images/black.png");
 }
 .white {
-  background-image: url("images/white.png");
+  background-image: url("images/white.jpg");
 }
 .c-selector input:active +.c-option {
     opacity: 1;
