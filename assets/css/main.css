@@ -15,28 +15,28 @@
     appearance: none;
 }
 .red {
-    background-image: url(http://i.imgur.com/r6wJgt3.png);
+    background-image: url("images/red.png");
 }
 .blue {
-    background-image: url(http://i.imgur.com/jnLMhKS.png);
+    background-image: url("images/blue.png");
 }
 .green {
-    background-image: url(http://i.imgur.com/PrVvTVu.png);
+    background-image: url("images/green.png");
 }
 .yellow {
-    background-image: url(http://i.imgur.com/hUiZhaA.png);
+    background-image: url("images/yellow.png");
 }
 .cyan {
-    background-image: url(https://imgur.com/vGt3WVU.png);
+    background-image: url(h"images/cyan.png");
 }
 .magenta {
-    background-image: url(https://imgur.com/eYALWVW.png);
+    background-image: url("images/magenta.png");
 }
 .off {
-    background-image: url(https://imgur.com/s5ySozu.png);
+    background-image: url("images/black.png");
 }
 .white {
-  background-image: url(https://imgur.com/HhUeG1r.png);
+  background-image: url("images/white.png");
 }
 .c-selector input:active +.c-option {
     opacity: 1;
