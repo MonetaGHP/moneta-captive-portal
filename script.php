@@ -1,6 +1,6 @@
 <?php
 
-$myfile = $_POST['value2'] . "^" . $_POST['value1'];
+$myfile = $_POST['value1'] . "^" . $_POST['value2'];
 file_put_contents("data.txt", $myfile);
 
  ?>
