@@ -2,12 +2,10 @@
 <html>
 <head>
 	<title>Moneta</title>
-
 	<!-- So Meta lol -->
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="theme-color" content="#353849">
-
 	<!-- CSS and FontAwesome -->
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -22,54 +20,49 @@
 		<!-- Content -->
 		<section id="wrapper">
 			<br>
-			<!-- Footer -->
-			<section id="footer">
+			<section id="footer"> <!-- Poorly named, not actually a footer -->
 				<div class="inner">
+
 					<h2 class="major">Create a Task</h2>
 					<p>Fill in the following information about your task</p>
+
 					<form method="post" action="script.php">
+						<!-- Task Text Field -->
+						<div class="field">
+							<label for="value1">Task</label>
+							<input type="text" name="value1" id="value1" />
+						</div>
 						<!-- Color Selection Radio Buttons -->
 						<div class="field">
-							<label for="value1">Color</label>
+							<label for="value2">Color</label>
 							<p>If you don't want the LED to turn on for this task, choose the black box.</p>
 							<div class="c-selector">
 								<!-- Red -->
-								<input type="radio" name="value1" id="red" value="100 0 0" />
+								<input type="radio" name="value2" id="red" value="100 0 0" />
 								<label class="c-option red" for="red"></label>
 								<!-- Green -->
-								<input type="radio" name="value1" id="green" value="0 100 0" />
+								<input type="radio" name="value2" id="green" value="0 100 0" />
 								<label class="c-option green" for="green"></label>
 								<!-- Blue -->
-								<input type="radio" name="value1" id="blue" value="0 0 100" />
+								<input type="radio" name="value2" id="blue" value="0 0 100" />
 								<label class="c-option blue" for="blue"></label>
 								<!-- Cyan -->
-								<input type="radio" name="value1" id="cyan" value="0 100 100" />
+								<input type="radio" name="value2" id="cyan" value="0 100 100" />
 								<label class="c-option cyan" for="cyan"></label>
 								<!-- Magenta -->
-								<input type="radio" name="value1" id="magenta" value="100 0 100" />
+								<input type="radio" name="value2" id="magenta" value="100 0 100" />
 								<label class="c-option magenta" for="magenta"></label>
 								<!-- Yellow -->
-								<input type="radio" name="value1" id="yellow" value="100 100 0" />
+								<input type="radio" name="value2" id="yellow" value="100 100 0" />
 								<label class="c-option yellow" for="yellow"></label>
 								<!-- White -->
-								<input type="radio" name="value1" id="white" value="100 100 100" />
+								<input type="radio" name="value2" id="white" value="100 100 100" />
 								<label class="c-option white" for="white"></label>
 								<!-- Off -->
-								<input type="radio" name="value1" id="off" value="0 0 0" />
+								<input type="radio" name="value2" id="off" value="0 0 0" />
 								<label class="c-option off" for="off"></label>
-							</div>
-						</div>
-						<!-- Task Name Text Field -->
-						<div class="field">
-							<label for="value2">Task</label>
-							<input type="text" name="value2" id="value2" />
-						</div>
-						<!-- Third Input Field TBD
-						<div class="field">
-							<label for="value3">Does Nothing For Now, Ignore</label>
-							<input type="datetime" name="value3" id="value3" />
-						</div>
-						-->
+							</div> <!-- c-elector -->
+						</div> <!-- Field -->
 						<!-- Submit Button -->
 						<ul class="actions">
 							<li>
@@ -77,6 +70,7 @@
 							</li>
 						</ul>
 					</form>
+					<!-- Copyright/Footer Info -->
 					<ul class="copyright">
 						<li>&copy; GHP Engineering 2016</li>
 						<li><a href="https://github.com/MonetaGHP">Moneta Team</a></li>
@@ -87,7 +81,6 @@
 			</section> <!-- Footer -->
 		</section> <!-- Content Wrapper -->
 	</div> <!-- Page Wrapper -->
-
 	<!-- Scripts -->
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/jquery.min.js"></script>
